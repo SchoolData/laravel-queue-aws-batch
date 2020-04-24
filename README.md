@@ -27,7 +27,7 @@ Add custom repository to your composer json:
 
 Using `composer`, run:
 
-    composer require lukewaite/laravel-queue-aws-batch:"dev-feature/Add-Laravel-6-0-support"
+    composer require lukewaite/laravel-queue-aws-batch:"dev-laravel-6.0"
 
 
 ### Usage
