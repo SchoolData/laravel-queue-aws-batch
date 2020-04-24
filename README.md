@@ -17,9 +17,17 @@
 ### Installation
 See the table above for package version information, and change the version below accordingly.
 
+Add custom repository to your composer json:
+```
+{
+    "type": "vcs",
+    "url": "https://github.com/SchoolData/laravel-queue-aws-batch.git"
+}
+```
+
 Using `composer`, run:
 
-    composer require lukewaite/laravel-queue-aws-batch ~2.0
+    composer require lukewaite/laravel-queue-aws-batch:"dev-feature/Add-Laravel-6-0-support"
 
 
 ### Usage

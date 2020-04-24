@@ -39,7 +39,7 @@ class BatchQueueTest extends TestCase
             $this->assertEquals('foo', json_decode($array['payload'], 1)['job']);
             $this->assertEquals(0, $array['attempts']);
             $this->assertNull($array['reserved_at']);
-            $this->assertInternalType('int', $array['available_at']);
+            $this->assertIsInt($array['available_at']);
 
             return 100;
         });
